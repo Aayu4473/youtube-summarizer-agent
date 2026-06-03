@@ -61,7 +61,7 @@ User Input (YouTube URL)
 ```
 ---
 
-# 🏗 Architecture Overview
+# Architecture Overview
 
 The system uses a **multi-agent orchestration model** where each agent owns a specific responsibility.
 
