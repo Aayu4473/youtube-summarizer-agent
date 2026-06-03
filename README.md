@@ -8,6 +8,16 @@ Unlike a traditional summarizer, this system separates **information extraction*
 
 ---
 
+## 🌱 Project Context
+
+This project was built as one of my early hands-on explorations into AI Agents, LangChain, and LLM-powered automation.
+
+The goal was not to create a production-scale system, but to understand how multi-agent workflows, transcript extraction, and AI-driven summarization work together in a real project environment.
+
+This project reflects my learning journey in Generative AI and serves as a foundation for building more advanced AI applications in the future.
+
+---
+
 ## 🚀 Project Vision
 
 Modern content consumption is overloaded.
@@ -23,6 +33,8 @@ This project aims to reduce information fatigue by creating an intelligent pipel
 The goal was not just summarization—but building a reusable AI workflow architecture.
 
 ---
+
+
 
 ## 🏗️ System Architecture
 
