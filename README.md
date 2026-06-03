@@ -24,24 +24,29 @@ The goal was not just summarization—but building a reusable AI workflow archit
 
 ---
 
-🏗 System Architecture
+## 🏗️ System Architecture
+
+```text
 User Input (YouTube URL)
-           │
-           ▼
+          │
+          ▼
 ┌──────────────────────────┐
 │ Transcript Extractor     │
 │ (CrewAI Agent + Tool)    │
-└────────────┬─────────────┘
-             │
-             ▼
+└──────────┬───────────────┘
+           │
+           ▼
 ┌──────────────────────────┐
 │ Content Synthesizer      │
 │ (Gemini + CrewAI Agent)  │
-└────────────┬─────────────┘
-             │
-             ▼
- Structured Summary Output
-
+└──────────┬───────────────┘
+           │
+           ▼
+┌──────────────────────────┐
+│ Structured Summary       │
+│ (Title + Key Insights)   │
+└──────────────────────────┘
+```
 ---
 
 # 🏗 Architecture Overview
